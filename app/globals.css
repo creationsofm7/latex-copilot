@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* CodeMirror styles */
+.cm-editor {
+    height: 100%;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-size: 14px;
+}
+
+.cm-editor .cm-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.cm-editor .cm-line {
+    padding: 0 8px;
+}
+
+.cm-editor .cm-gutters {
+    border-right: 1px solid #2d2d2d;
+    background-color: #1e1e1e;
+}
